@@ -15,6 +15,9 @@ const SEO = ({ title, description, keywords, url, image }) => {
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
       <meta property="og:site_name" content="Showcase" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:image:width" content="1200" />
+      <meta property="og:image:height" content="630" />
 
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -22,10 +25,7 @@ const SEO = ({ title, description, keywords, url, image }) => {
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
 
-      {/* Additional Meta Tags */}
-      <meta property="og:locale" content="en_US" />
-      <meta property="og:image:width" content="1200" />
-      <meta property="og:image:height" content="630" />
+      {/* Canonical URL */}
       <link rel="canonical" href={url} />
     </Helmet>
   );
