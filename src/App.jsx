@@ -18,7 +18,7 @@ function App() {
         description="Build and customize your portfolio with ease using our portfolio builder."
         keywords="portfolio, builder, templates, showcase"
         url="https://test5-beta-drab.vercel.app/" // Replace with your actual URL
-        image="https://i.pinimg.com/originals/00/d6/c0/00d6c0a40815e725827ef2c03b38fd10.jpg" // Replace with your actual image URL
+        image="https://i.pinimg.com/originals/f1/15/24/f11524ef3d2a23175a58213744311542.png" // Replace with your actual image URL
       />
     
       <NavBarComponent />
