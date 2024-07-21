@@ -14,7 +14,7 @@ const SEO = ({ title, description, keywords, url, image }) => {
       <meta property="og:type" content="website" />
       <meta property="og:url" content={url} />
       <meta property="og:image" content={image} />
-      <meta property="og:site_name" content="Showcase" />
+      <meta property="og:site_name" content="Showcasesssssssssssssss" />
       <meta property="og:locale" content="en_US" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
